@@ -1,7 +1,13 @@
+import Countries from "../components/Countries";
+import Logo from "../components/Logo";
+import Navigation from "../components/Navigation";
+
 const Home = () => {
     return (
         <div>
-            <h1>Home</h1>
+            <Logo />
+            <Navigation />
+            <Countries />
         </div>
     );
 };
